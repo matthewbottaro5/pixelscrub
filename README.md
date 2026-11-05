@@ -13,6 +13,8 @@ This repository is published so anyone can check what the site does with their f
 | `src/app.js` | The page logic: file handling, the report, downloads, `sendSummary` (the per-file summary) and `track` (usage events). |
 | `src/zip.js` | Builds the "download all" ZIP in the browser. |
 
+The site serves these same files at `https://pixelscrub.com/js/<name>.js`, so you can compare them with what your browser runs.
+
 ## What the site sends
 
 `sendSummary` in `src/app.js` sends one small JSON summary per cleaned file:
